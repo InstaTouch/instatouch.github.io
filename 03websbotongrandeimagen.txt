@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces a tres páginas web con imagen</title>
+    <style>
+        /* Estilos para el botón */
+        .boton-abrir {
+            display: block;
+            width: 100%; /* Ocupa todo el ancho disponible */
+            max-width: 300px; /* Limita el ancho máximo */
+            padding: 15px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            margin: 0 auto; /* Centra horizontalmente */
+        }
+
+        /* Estilos para la imagen */
+        .imagen-responsiva {
+            max-width: 100%; /* La imagen se ajusta al ancho de su contenedor */
+            height: auto; /* Mantiene la proporción de aspecto */
+            display: block; /* Evita espacios no deseados debajo de la imagen */
+            margin: 20px auto; /* Centra verticalmente */
+        }
+    </style>
+</head>
+<body>
+    <button class="boton-abrir" onclick="window.open('https://www.ontouchcard.com'); window.open('https://www.tarjetareviews.click'); window.open('https://www.instasharemaster.pe');">
+        Abrir tres páginas
+    </button>
+
+    <!-- Agrega la imagen aquí -->
+    <img class="imagen-responsiva" src="URL_DE_LA_IMAGEN" alt="Descripción de la imagen">
+</body>
+</html>
